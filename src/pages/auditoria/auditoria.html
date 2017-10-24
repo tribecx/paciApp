@@ -1,0 +1,108 @@
+<ion-header>
+  <ion-navbar>
+  	<ion-grid>
+	  	<ion-row>
+	  		<ion-col col-4>
+  			</ion-col>
+			<ion-col col-4 class="centrar">
+				<img src="assets/logo-paci.svg">
+	    	</ion-col>
+	    	<ion-col col-4 class="button-salir">
+    			<span class="button-salir">X</span> <br>SALIR
+    		</ion-col>
+	  	</ion-row>
+  	</ion-grid>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+	<ion-grid>
+		<ion-row>
+			<ion-col col-1></ion-col>
+			<ion-col col-10 class="centrar">
+				<span class="selecciona-la-audito">
+					Selecciona la auditoria <br> que deseas aplicar
+				</span>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+
+	<ion-card class="card">
+		<ion-grid>
+			<ion-row>
+				<ion-col col-10>
+					<span class="titulo-auditoria">Título de la auditoría</span>
+					<br>
+					<span class="nombre-de-la-empresa">Nombre de la empresa</span>
+				</ion-col>
+				<ion-col col-2 class="centrar">
+					<img class="card-icon" src="assets/PENDIENTE.svg">
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-card>
+
+	<ion-card class="card">
+		<ion-grid>
+			<ion-row>
+				<ion-col col-10>
+					<span class="titulo-auditoria">Título de la auditoría</span>
+					<br>
+					<span class="nombre-de-la-empresa">Nombre de la empresa</span>
+				</ion-col>
+				<ion-col col-2 class="centrar">
+					<img class="card-icon" src="assets/Completada.svg">
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-card>
+
+	<ion-card class="card">
+		<ion-grid>
+			<ion-row>
+				<ion-col col-10>
+					<span class="titulo-auditoria">Título de la auditoría</span>
+					<br>
+					<span class="nombre-de-la-empresa">Nombre de la empresa</span>
+				</ion-col>
+				<ion-col col-2 class="centrar">
+					<img class="card-icon" src="assets/Completada.svg">
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-card>
+
+	<ion-card class="card">
+		<ion-grid>
+			<ion-row>
+				<ion-col col-10>
+					<span class="titulo-auditoria">Título de la auditoría</span>
+					<br>
+					<span class="nombre-de-la-empresa">Nombre de la empresa</span>
+				</ion-col>
+				<ion-col col-2 class="centrar">
+					<img class="card-icon" src="assets/PENDIENTE.svg">
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-card>
+
+	<ion-footer>
+	  <ion-toolbar>
+		<ion-grid>
+			<ion-row>
+				<ion-col col-1></ion-col>
+				<ion-col col-2>
+					<img class="card-icon" style="background-color: green" src="assets/PENDIENTE.svg">
+				</ion-col>
+				<ion-col col-9 class="centrar">
+					<button class="button-ingresar subir-resultados"  (click)="goAuditorias()" ion-button><img class="izquierda" src="assets/flecha-arriba.svg"> Subir resultados</button>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	  </ion-toolbar>
+	</ion-footer>
+
+</ion-content>

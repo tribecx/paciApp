@@ -1,14 +1,83 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/logo-paci.svg">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  	<ion-grid>
+	  	<ion-row>
+	  		<ion-col col-4>
+  			</ion-col>
+			<ion-col col-4 class="centrar">
+				<img src="assets/logo-paci.svg">
+	    	</ion-col>
+	    	<ion-col col-4 class="button-salir cursor-hover">
+    			<span class="button-salir">X</span> <br>SALIR
+    		</ion-col>
+	  	</ion-row>
+  	</ion-grid>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+	<ion-grid>
+		<ion-row>
+			<ion-col col-1></ion-col>
+			<ion-col col-10>
+				<span class="accede-a-paci">
+					Accede a Paci
+				</span>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col col-1></ion-col>
+			<ion-col col-10>
+				<span class="ingresa-los-siguient">
+					Ingresa los siguientes datos
+				</span>
+			</ion-col>
+		</ion-row>
+
+		<ion-row class="no-padding input">
+			<ion-col col-1></ion-col>
+			<ion-col col-10>
+				<ion-item>
+					<ion-label floating>Usuario</ion-label>
+				    <ion-input type="text" value=""></ion-input>
+				</ion-item>
+
+				<ion-item>
+					<ion-label floating>Contraseña</ion-label>
+				    <ion-input type="password"></ion-input>
+				</ion-item>	
+			  	
+			  	<ion-item class="checkbox">
+				    <ion-label>Recordar mis datos</ion-label>
+  					<ion-checkbox checked="true"></ion-checkbox>
+				</ion-item>	
+
+			</ion-col>
+		</ion-row>
+		
+		<ion-row class="centrar">
+			<ion-col col-1></ion-col>
+			<ion-col col-10>
+				<button class="button-ingresar"  (click)="goAuditorias()" ion-button>INGRESAR</button>
+			</ion-col>
+		</ion-row>
+		<br><br>
+		<ion-row class="centrar">
+			<ion-col col-1></ion-col>
+			<ion-col col-10>
+				<span class="olvidaste-tu-contra cursor-hover">¿Olvidaste tu contraseña?</span>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+
 </ion-content>

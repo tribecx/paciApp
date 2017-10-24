@@ -1,3 +1,130 @@
-page-home {
+// SPLASH 
+#custom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  width:100%;
+  background-color: white;
+}
+.flb {
+  height:100%;
+  width:100%;
+  animation: pulse 1s linear forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  max-width: 50%;
+}
+.Aligner-item--top {
+  align-self: flex-start;
+}
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+#custom-overlay img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  animation: animation 3100ms linear infinite both;
+  animation-delay: 1s;
+}
 
+//LOGIN
+.button-salir {
+  height: 10px;
+  width: 24px;
+  color: #757779;
+  font-family: Muli;
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 10px;
+  text-align: right;
+  margin-top: 5px;
+}
+.button-salir span{
+  color:#757779;
+  font-size: 24px;
+}
+.accede-a-paci {
+  height: 40px;
+  width: 240px;
+  color: #757779;
+  font-family: Muli;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 40px;
+}
+.ingresa-los-siguient {
+  height: 18px;
+  width: 240px;
+  color: #B4B6B8;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+.no-padding ion-item{
+  padding: 0;
+}
+.input ion-label {
+  height: 30px;
+  width: 240px;
+  color: #B4B6B8;
+  font-family: Muli;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 30px;
+}
+.input ion-input{
+  border-bottom: 2px solid #B4B6B8;
+}
+.checkbox ion-label{
+  height: 18px;
+  width: 129px;
+  color: #757779;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+.item-inner{
+  border-bottom:0!important;
+}
+.checkbox-icon{
+  border-radius:2px!important;
+}
+.checkbox-checked{
+  background-color:#008D95 !important;
+}
+.button-ingresar {
+  height: 38px;
+  width: 180px;
+  border-radius: 100px;
+  background-color: #9BD53B;
+}
+.button-ios.activated{
+  background-color: #9BD53B;
+}
+.button-md.activated{
+  background-color: #9BD53B;
+}
+.olvidaste-tu-contra {
+  height: 18px;
+  width: 171px;
+  color: #757779;
+  font-family: Muli;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: right;
+  border-bottom:0!important;
+}
+.cursor-hover{
+  cursor: pointer;
 }

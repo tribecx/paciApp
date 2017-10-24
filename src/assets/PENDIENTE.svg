@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>PENDIENTE</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Auditoria-pendiente-" transform="translate(-220.000000, -12.000000)">
+            <g id="PENDIENTE" transform="translate(221.000000, 13.000000)">
+                <g id="Completada" stroke="#FFFFFF">
+                    <circle id="Oval-4" cx="17.5" cy="17.5" r="17.5"></circle>
+                </g>
+                <g id="Group" transform="translate(17.500000, 17.500000) rotate(-180.000000) translate(-17.500000, -17.500000) translate(8.750000, 5.000000)" fill="#FFFFFF">
+                    <path d="M3.19698309,18.5764178 L11.6981698,10.0771909 C12.4193984,9.35607971 13.5887263,9.35607971 14.3099549,10.0771909 C15.0309514,10.79807 15.0309514,11.9672075 14.3099549,12.6885507 L5.80876814,21.1877776 C5.08730748,21.9086567 3.9182117,21.9086567 3.19698309,21.1877776 C2.47598654,20.4666664 2.47598654,19.2975289 3.19698309,18.5764178 Z" id="Fill-23" transform="translate(8.753469, 15.632397) rotate(-45.000000) translate(-8.753469, -15.632397) "></path>
+                    <path d="M7.17445874,2.3391337 L7.72069417,1.79485811 C8.44192277,1.07374694 9.61125062,1.07374694 10.3324792,1.79485811 C11.0534758,2.51573727 11.0534758,3.68487472 10.3324792,4.40621791 L9.78624379,4.95049349 C9.06478313,5.67137265 7.89568734,5.67137265 7.17445874,4.95049349 C6.45346219,4.22938232 6.45346219,3.06024487 7.17445874,2.3391337 Z" id="Fill-23-Copy" transform="translate(8.753469, 3.372589) rotate(-45.000000) translate(-8.753469, -3.372589) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
