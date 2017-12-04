@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 46 (44423) - http://www.bohemiancoding.com/sketch -->
-    <title>2AF8F94B-5B14-4231-90B1-80EDF3EB8E7B</title>
+    <title>70E0CECE-AC19-4EC8-90EE-84874A4FF450</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Auditoria-completada" transform="translate(-220.000000, -12.000000)">
+        <g id="Auditoria-subida" transform="translate(-221.000000, -13.000000)">
             <g id="Completada" transform="translate(221.000000, 13.000000)">
-                <circle id="Oval-4" stroke="#FFFFFF" cx="17.5" cy="17.5" r="17.5"></circle>
+                <circle id="Oval-4" fill="#B8E986" cx="17.5" cy="17.5" r="17.5"></circle>
                 <path d="M13.7450532,21.3714845 L24.577468,10.5408334 C25.2986966,9.81972221 26.4680245,9.81972221 27.1892531,10.5408334 C27.9102496,11.2617125 27.9102496,12.43085 27.1892531,13.1521932 L15.1525325,25.186954 C14.5792105,25.7598138 13.723208,25.8774401 13.033916,25.5398328 C12.7339782,25.4581603 12.4506086,25.2995599 12.2150421,25.0640317 L7.54074741,20.3904982 C6.81975086,19.669387 6.81975086,18.5002495 7.54074741,17.7793704 C8.26197602,17.0582592 9.43130386,17.0582592 10.1525325,17.7793704 L13.7450532,21.3714845 Z" id="Combined-Shape" fill="#FFFFFF"></path>
             </g>
         </g>

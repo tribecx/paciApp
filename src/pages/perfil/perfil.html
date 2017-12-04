@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+  	<ion-grid>
+	  	<ion-row>
+	  		<ion-col col-4>
+  			</ion-col>
+	  	</ion-row>
+  	</ion-grid>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col col-1></ion-col>
+        <ion-col col-10 class="centrar">
+          <span class="iniciales">OM</span>
+          <br>
+          <span class="user-type">
+            Usuario administrador
+          </span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-item>
+        <ion-label class="profile-label" stacked>NOMBRE</ion-label>
+        <ion-input class="profile-input" type="email" disabled="true" placeholder="Nombre completo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label class="profile-label" stacked>EMPRESA</ion-label>
+        <ion-input class="profile-input" type="email" disabled="true" placeholder="Nombre de la empresa"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label class="profile-label" stacked>USUARIO</ion-label>
+        <ion-input class="profile-input" type="email" disabled="true" placeholder="Nombre del usuario"></ion-input>
+    </ion-item>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col col-1></ion-col>
+        <ion-col col-10 class="centrar">
+          <button class="logout" (click)="presentConfirm()" ion-button>Cerrar sesión</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-content>

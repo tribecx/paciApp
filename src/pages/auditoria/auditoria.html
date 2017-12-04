@@ -8,7 +8,7 @@
 				<img src="assets/logo-paci.svg">
 	    	</ion-col>
 	    	<ion-col col-4 class="button-salir">
-    			<span class="button-salir">X</span> <br>SALIR
+    			<img class="card-icon" (click)="goPerfil()" src="assets/usuario.svg">
     		</ion-col>
 	  	</ion-row>
   	</ion-grid>
@@ -53,7 +53,7 @@
 					<span class="nombre-de-la-empresa">Nombre de la empresa</span>
 				</ion-col>
 				<ion-col col-2 class="centrar">
-					<img class="card-icon" src="assets/Completada.svg">
+					<img class="card-icon" src="assets/completada.svg">
 				</ion-col>
 			</ion-row>
 		</ion-grid>
@@ -68,7 +68,7 @@
 					<span class="nombre-de-la-empresa">Nombre de la empresa</span>
 				</ion-col>
 				<ion-col col-2 class="centrar">
-					<img class="card-icon" src="assets/Completada.svg">
+					<img class="card-icon" src="assets/completadaGreen.svg">
 				</ion-col>
 			</ion-row>
 		</ion-grid>
@@ -95,7 +95,7 @@
 			<ion-row>
 				<ion-col col-1></ion-col>
 				<ion-col col-2>
-					<img class="card-icon" style="background-color: green" src="assets/PENDIENTE.svg">
+					<img class="card-icon" src="assets/recargar.svg">
 				</ion-col>
 				<ion-col col-9 class="centrar">
 					<button class="button-ingresar subir-resultados"  (click)="goAuditorias()" ion-button><img class="izquierda" src="assets/flecha-arriba.svg"> Subir resultados</button>

@@ -16,4 +16,9 @@ export class AuditoriaPage {
     console.log('ionViewDidLoad AuditoriaPage');
   }
 
+  goPerfil() {
+    this.navCtrl.push('PerfilPage');
+  }
+
+
 }
