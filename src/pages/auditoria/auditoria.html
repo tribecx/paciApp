@@ -29,7 +29,7 @@
 		</ion-row>
 	</ion-grid>
 
-	<ion-card class="card">
+	<ion-card class="card" (click)="goResumen()">
 		<ion-grid>
 			<ion-row>
 				<ion-col col-10>
@@ -98,7 +98,7 @@
 					<img class="card-icon" src="assets/recargar.svg">
 				</ion-col>
 				<ion-col col-9 class="centrar">
-					<button class="button-ingresar subir-resultados"  (click)="goAuditorias()" ion-button><img class="izquierda" src="assets/flecha-arriba.svg"> Subir resultados</button>
+					<button class="button-ingresar subir-resultados" ion-button><img class="izquierda" src="assets/flecha-arriba.svg"> Subir resultados</button>
 				</ion-col>
 			</ion-row>
 		</ion-grid>

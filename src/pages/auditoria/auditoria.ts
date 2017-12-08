@@ -20,5 +20,9 @@ export class AuditoriaPage {
     this.navCtrl.push('PerfilPage');
   }
 
+  goResumen(){
+    this.navCtrl.push('ResumenPreguntasPage');
+  }
+
 
 }
