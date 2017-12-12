@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { CuestionarioPage } from '../cuestionario/cuestionario';
 
 /**
  * Generated class for the ResumenPreguntasPage page.
@@ -20,6 +21,10 @@ export class ResumenPreguntasPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ResumenPreguntasPage');
+  }
+
+  continuar(){
+    this.navCtrl.setRoot('CuestionarioPage');
   }
 
 }

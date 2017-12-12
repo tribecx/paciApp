@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="15" cy="15.104" r="15" stroke="#82B430"/>
+        <text fill="#82B430" font-family="Muli-Light, Muli" font-size="22" font-weight="300" letter-spacing=".33">
+            <tspan x="12.775" y="22.875">i</tspan>
+        </text>
+    </g>
+</svg>

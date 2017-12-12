@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http, RequestOptions, Headers} from '@angular/http';
 import 'rxjs/add/operator/map';
 
 /*
@@ -11,8 +11,31 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class RestProvider {
 
+  token: any;
+
   constructor(public http: Http) {
-    console.log('Hello RestProvider Provider');
+  }
+
+  login(token){
+    this.token = token;
+    console.log(this.token);
+    
+  }
+
+
+  getAuditorias(){
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    headers.append('Access-Token', this.token);
+
+    let options = new RequestOptions({ headers: headers});
+
+    this.http.get('http://paci-dev.growthdrivendesign.mx/paciApi/v1/app/auditorias', options).map(res => res.json()).subscribe(data => {
+      console.log(data.data);
+      console.log(this.token);
+      
+    });     
+    
   }
 
 }
