@@ -20,6 +20,11 @@ export class RecomendacionPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RecomendacionPage');
+    let element = document.getElementById('id')
+    let parent=element.parentElement
+    let parent2 = parent.parentElement //popover-content
+    parent2.parentElement.style['width'] = "260px"
+    parent2.parentElement.style['height'] = "300px"
   }
 
 }

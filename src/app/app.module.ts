@@ -10,6 +10,7 @@ import { MyApp } from './app.component';
 
 import { HomePage } from '../pages/home/home';
 import { LogoutPopOverPage } from '../pages/logout-pop-over/logout-pop-over';
+import { RecomendacionPage } from '../pages/recomendacion/recomendacion';
 
 import { RestProvider } from '../providers/rest/rest';
 
@@ -17,7 +18,8 @@ import { RestProvider } from '../providers/rest/rest';
   declarations: [
     MyApp,
     HomePage,
-    LogoutPopOverPage   
+    LogoutPopOverPage,
+    RecomendacionPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { RestProvider } from '../providers/rest/rest';
   entryComponents: [
     MyApp,
     HomePage,
-    LogoutPopOverPage
+    LogoutPopOverPage,
+    RecomendacionPage
   ],
   providers: [
     StatusBar,

@@ -45,7 +45,7 @@
     border-radius: 50px;
     background-color: #d4d4d4;
 }
-.center{
+.center-b{
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -53,4 +53,23 @@
     font-size: 20px;
     letter-spacing: 1px;
     color: #fff;
+}
+.center{
+    text-align: center;
+}
+.button-cuestionario{
+    width: 100%;    
+    border-radius: 100px;
+    border: 2px solid #008d95;
+    background-color: #fff;
+    color: #008d95;
+}
+.button-cuestionario.activated{
+    background-color: #008d95!important;
+    color: #FFF;
+}
+.footer-btn{
+    color: #757779;
+    font-size: 14px;
+    letter-spacing: 0.32px;
 }

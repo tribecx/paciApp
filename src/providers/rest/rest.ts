@@ -9,6 +9,7 @@ import 'rxjs/add/operator/map';
   and Angular DI.
 */
 @Injectable()
+
 export class RestProvider {
 
   token: any;
@@ -16,25 +17,23 @@ export class RestProvider {
   constructor(public http: Http) {
   }
 
+  
   login(token){
     this.token = token;
     console.log(this.token);
-    
   }
 
 
-  getAuditorias(){
+  getAuditorias(bn, mal){
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
     headers.append('Access-Token', this.token);
 
     let options = new RequestOptions({ headers: headers});
 
-    this.http.get('http://paci-dev.growthdrivendesign.mx/paciApi/v1/app/auditorias', options).map(res => res.json()).subscribe(data => {
-      console.log(data.data);
-      console.log(this.token);
-      
-    });     
+    this.http.get('http://paci-dev.growthdrivendesign.mx/paciApi/v1/app/auditorias', options)
+    .map(res => res.json())
+    .subscribe( bn , mal );     
     
   }
 

@@ -15,13 +15,13 @@
         <span class="modulo">M1-1</span>
       </ion-col>
       <ion-col col-2>
-        <img src="../../assets/info.svg" alt="">          
+        <img src="../../assets/info.svg" alt="" (click)="showInfo()">          
       </ion-col>
     </ion-row>
 
     <ion-row style="margin-top:25px; text-align:center">
-      <ion-col col-2></ion-col>
-      <ion-col col-8>
+      <ion-col col-1></ion-col>
+      <ion-col col-10>
         <span class="pregunta">
             ¿Están asignadas las responsabilidades energéticas en la empresa (Energy Team)?
         </span>
@@ -31,22 +31,43 @@
     <ion-row style="margin-top:45px">
       <ion-col col-2></ion-col>
       <ion-col col-2 class="no-padding">
-        <div class="circulo">
-          <span class="center">SÍ</span>            
+        <div id="si" class="circulo" (click)="select('1')">
+          <span class="center-b">SÍ</span>            
         </div>
       </ion-col>
       <ion-col col-1></ion-col>      
       <ion-col col-2 class="no-padding">          
-        <div class="circulo">
-          <span class="center">NO</span>            
+        <div id="no" class="circulo" (click)="select('2')">
+          <span class="center-b">NO</span>            
         </div>
       </ion-col>
       <ion-col col-1></ion-col>      
       <ion-col col-2 class="no-padding">          
-        <div class="circulo">
-          <span class="center">N/A</span>            
+        <div id="na" class="circulo" (click)="select('0')">
+          <span class="center-b">N/A</span>            
         </div>
       </ion-col>
+    </ion-row>
+
+    <ion-row style="margin-top:15px">
+      <ion-col col-2></ion-col>
+      <ion-col col-8 class="center">
+        <button class="button-cuestionario" ion-button>Agregar potencial</button>
+        <button class="button-cuestionario" ion-button>Agregar comentarios</button>        
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="text-align:center; margin-top:20px;">
+      <ion-col col-1></ion-col>
+      <ion-col col-4>
+        <span class="footer-btn" (click)="regresar()">Anterior</span>
+      </ion-col>
+      <ion-col col-2></ion-col>
+      <ion-col col-4>
+        <span class="footer-btn"><strong>FINALIZAR</strong></span> 
+      </ion-col>
+      
+      
     </ion-row>
   </ion-grid>
 </ion-content>
