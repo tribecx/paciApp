@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, PopoverController } from 'ionic-angular';
 
 import { RecomendacionPage } from '../recomendacion/recomendacion';
+import { ModuloPopOverPage } from '../modulo-pop-over/modulo-pop-over';
+import { PotencialPopOverPage } from '../potencial-pop-over/potencial-pop-over';
+import { ComentarioPopOverPage } from '../comentario-pop-over/comentario-pop-over';
+
 /**
  * Generated class for the CuestionarioPage page.
  *
@@ -47,6 +51,21 @@ export class CuestionarioPage {
 
   showInfo(){
     let popOver = this.popOver.create ( RecomendacionPage );
+    popOver.present();
+  }
+
+  cambiarModulo(){
+    let popOver = this.popOver.create ( ModuloPopOverPage );
+    popOver.present();
+  }
+
+  agregarPotencial(){
+    let popOver = this.popOver.create ( PotencialPopOverPage );
+    popOver.present();
+  }
+
+  agregarComentario(){
+    let popOver = this.popOver.create ( ComentarioPopOverPage );
     popOver.present();
   }
 

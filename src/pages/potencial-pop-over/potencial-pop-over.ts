@@ -20,6 +20,11 @@ export class PotencialPopOverPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PotencialPopOverPage');
+    let element = document.getElementById('id')
+    let parent=element.parentElement
+    let parent2 = parent.parentElement //popover-content
+    parent2.parentElement.style['width'] = "260px"
+    parent2.parentElement.style['height'] = "350px"
   }
 
 }

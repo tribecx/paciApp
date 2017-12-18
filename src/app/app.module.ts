@@ -11,6 +11,9 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LogoutPopOverPage } from '../pages/logout-pop-over/logout-pop-over';
 import { RecomendacionPage } from '../pages/recomendacion/recomendacion';
+import { ModuloPopOverPage } from '../pages/modulo-pop-over/modulo-pop-over';
+import { PotencialPopOverPage } from '../pages/potencial-pop-over/potencial-pop-over';
+import { ComentarioPopOverPage } from '../pages/comentario-pop-over/comentario-pop-over';
 
 import { RestProvider } from '../providers/rest/rest';
 
@@ -19,7 +22,10 @@ import { RestProvider } from '../providers/rest/rest';
     MyApp,
     HomePage,
     LogoutPopOverPage,
-    RecomendacionPage
+    RecomendacionPage,
+    ModuloPopOverPage,
+    PotencialPopOverPage,
+    ComentarioPopOverPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +37,10 @@ import { RestProvider } from '../providers/rest/rest';
     MyApp,
     HomePage,
     LogoutPopOverPage,
-    RecomendacionPage
+    RecomendacionPage,
+    ModuloPopOverPage,
+    PotencialPopOverPage,
+    ComentarioPopOverPage
   ],
   providers: [
     StatusBar,

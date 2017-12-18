@@ -12,7 +12,7 @@
     <ion-row style="margin-top:30px">
       <ion-col col-3></ion-col>
       <ion-col col-4>
-        <span class="modulo">M1-1</span>
+        <span class="modulo" (click)="cambiarModulo()">M1-1</span>
       </ion-col>
       <ion-col col-2>
         <img src="../../assets/info.svg" alt="" (click)="showInfo()">          
@@ -52,8 +52,8 @@
     <ion-row style="margin-top:15px">
       <ion-col col-2></ion-col>
       <ion-col col-8 class="center">
-        <button class="button-cuestionario" ion-button>Agregar potencial</button>
-        <button class="button-cuestionario" ion-button>Agregar comentarios</button>        
+        <button class="button-cuestionario" (click)="agregarPotencial()" ion-button>Agregar potencial</button>
+        <button class="button-cuestionario" (click)="agregarComentario()" ion-button>Agregar comentarios</button>        
       </ion-col>
     </ion-row>
 
