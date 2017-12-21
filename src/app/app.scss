@@ -1,3 +1,10 @@
 .centrar{
   text-align:center;
 }
+@font-face {
+  font-family: Muli;
+  src: url("../../www/assets/fonts/Muli-Light.ttf");
+}
+body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title{
+  font-family: 'Muli' !important;
+}

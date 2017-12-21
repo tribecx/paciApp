@@ -43,7 +43,7 @@
       </ion-col>
       <ion-col col-1></ion-col>      
       <ion-col col-2 class="no-padding">          
-        <div id="na" class="circulo" (click)="select('0')">
+        <div id="na" class="circulo" (click)="select('0')" (click)="noAplica()">
           <span class="center-b">N/A</span>            
         </div>
       </ion-col>
@@ -64,7 +64,7 @@
       </ion-col>
       <ion-col col-2></ion-col>
       <ion-col col-4>
-        <span class="footer-btn"><strong>FINALIZAR</strong></span> 
+        <span class="footer-btn" (click)="finalizar()"><strong>FINALIZAR</strong></span> 
       </ion-col>
       
       

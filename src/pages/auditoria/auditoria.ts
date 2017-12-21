@@ -18,7 +18,7 @@ export class AuditoriaPage {
 
   ngOnInit(): void {
 
-    this.service.login('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Ijk2IiwidG9rZW4iOiIzY2QzOTBlNzZlNjczMTY4In0.BxvhskdByNjKicnhxywBg_mWuWhJ_FQobz_BKm7Vu4A');
+    this.service.login('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Ijk2IiwidG9rZW4iOiJiODkzNTA3Njg1NTY1ZTViIn0.UTGsJZyjRd93hFzg_Tt9xFYspufTdYgasuARHCru8eU');
     this.service.getAuditorias(bn =>  this.data = bn.result, mal => console.log('mal'));
     /*
     let token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Ijk2IiwidG9rZW4iOiIzY2QzOTBlNzZlNjczMTY4In0.BxvhskdByNjKicnhxywBg_mWuWhJ_FQobz_BKm7Vu4A";

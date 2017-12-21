@@ -5,6 +5,7 @@ import { RecomendacionPage } from '../recomendacion/recomendacion';
 import { ModuloPopOverPage } from '../modulo-pop-over/modulo-pop-over';
 import { PotencialPopOverPage } from '../potencial-pop-over/potencial-pop-over';
 import { ComentarioPopOverPage } from '../comentario-pop-over/comentario-pop-over';
+import { NoAplicaPopOverPage } from '../no-aplica-pop-over/no-aplica-pop-over';
 
 /**
  * Generated class for the CuestionarioPage page.
@@ -67,6 +68,15 @@ export class CuestionarioPage {
   agregarComentario(){
     let popOver = this.popOver.create ( ComentarioPopOverPage );
     popOver.present();
+  }
+
+  noAplica(){
+    let popOver = this.popOver.create ( NoAplicaPopOverPage );
+    popOver.present();
+  }
+
+  finalizar(){
+    this.navCtrl.setRoot('AuditoriaGuardadaPage');
   }
 
 }

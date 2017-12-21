@@ -14,6 +14,7 @@ import { RecomendacionPage } from '../pages/recomendacion/recomendacion';
 import { ModuloPopOverPage } from '../pages/modulo-pop-over/modulo-pop-over';
 import { PotencialPopOverPage } from '../pages/potencial-pop-over/potencial-pop-over';
 import { ComentarioPopOverPage } from '../pages/comentario-pop-over/comentario-pop-over';
+import { NoAplicaPopOverPage } from '../pages/no-aplica-pop-over/no-aplica-pop-over';
 
 import { RestProvider } from '../providers/rest/rest';
 
@@ -25,7 +26,8 @@ import { RestProvider } from '../providers/rest/rest';
     RecomendacionPage,
     ModuloPopOverPage,
     PotencialPopOverPage,
-    ComentarioPopOverPage
+    ComentarioPopOverPage,
+    NoAplicaPopOverPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { RestProvider } from '../providers/rest/rest';
     RecomendacionPage,
     ModuloPopOverPage,
     PotencialPopOverPage,
-    ComentarioPopOverPage
+    ComentarioPopOverPage,
+    NoAplicaPopOverPage
   ],
   providers: [
     StatusBar,
